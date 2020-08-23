@@ -20,10 +20,11 @@ jobs:
           
       - name: Build
         run: |
-          sudo apt-get install libncurses-dev
-          make
-          make clean
-          rm -rf .git*
+          locale
+          #sudo apt-get install libncurses-dev
+          #make
+          #make clean
+          #rm -rf .git*
       
       - name: List Output
         run: |
@@ -45,9 +46,10 @@ jobs:
 
       - name: Build
         run: |
-          make
-          make clean
-          rm -rf .git*
+          locale
+          #make
+          #make clean
+          #rm -rf .git*
 
       - name: List Output
         run: |

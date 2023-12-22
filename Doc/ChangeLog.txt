@@ -1,3 +1,38 @@
+Version 3.4
+-----------
+NOTE: Changes require HBIOS/CBIOS/Apps sync, version bump to 3.4 to ensure integrity
+- WBW: Device type number moved from upper nibble to full byte
+- A?C: Support for EP ITX-Mini Z180 Platform
+- M?R: Significant improvement in User Guide document
+- J?P: Preliminary support for Monsputer (MON)
+
+
+Version 3.3
+-----------
+- WBW: Support Front Panel switches
+- A?C: Preliminary support for Z80-Retro
+- A?C: Support for SD PIO
+- A?C: Support for Z80-Retro SD interface
+- WBW: Support per-drive floppy configuration
+- WBW: Support for Bill Shen's VGARC
+- WBW: Support for MG014 Parallel Port module + printer
+- WBW: Support for EMM Zip Drive on PPI interface (much inspiration from Alan Cox)
+- WBW: Support for PPA Zip Drive on PPI interface (much inspiration from Alan Cox)
+- WBW: Support for SyQuest SparQ Drive on PPI interface (much inspiration from Alan Cox)
+- WBW: Support for ATAPI Disk Drives (not CD-ROMs) on IDE and PPIDE interfaces
+- R?P: Added new disk images: Aztec C, MS BASIC Compiler, MS Fortran, Games, HiTech-C, Turbo Pascal, SLR Z80ASM
+- JBL: Added RCZ80 configuration for ColecoVision
+- WBW: Support for Z180 running interrupt mode 1
+- WBW: Preliminary support for S100 Computers Z180
+- WBW: Preliminary support for Dan Werner's ESP32 MBC Module
+- WBW: Early support for Duodyne base system (CPU/UART/ROM/RAM/RTC/SPK)
+- M?C: Fixed XM to allow specifying HBIOS port for send operations
+- WBW: Fix S100 Z180 LED operation (credit to Jay Cotton for finding this issue)
+- WBW: QPM system image is now combined with current CBIOS during build
+- WBW: Added framework for Heath platform
+- WBW: Support for USB Disks via CH375/CH376
+- D?J: Support for Raspberry Pi build process
+
 Version 3.2.1
 -------------
 - M?P: Fixed Zeta 2 FDD and CPUSPD config settings

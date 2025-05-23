@@ -229,6 +229,8 @@ XM.COM - XModem file transfer application
 ZMP.COM - ZModem communications program (requires dedicated comm port)
 ZMP.DOC - Documentation for ZMP
 ZMP.HLP - Help file for ZMP
+ZMP.CFG - Configuration file for ZMP
+ZMP.FON - Phone book for ZMP
 ZMXFER.OVR - Overlay file for ZMP
 ZMTERM.OVR - Overlay file for ZMP
 ZMINIT.OVR - Overlay file for ZMP
@@ -275,7 +277,7 @@ LBREXT.COM - Extract file from .LBR libraries
 LBREXT36.CFG - ZCNFG configuration file for LBREXT
 ZXD.COM - Enhanced directory lister w/ date/time stamp support
 ZXD.CFG - ZCNFG configuration file for ZXD
-BBCBASIC.COM - BBC BASIC CP/M Version 3.00 by R.T.Russell
+BBCBASIC.COM - BBC BASIC CP/M Version by R.T.Russell
 BBCBASIC.TXT - Help file for BBC BASIC
 GENHEX.COM - Generates an Intel Hex file from the input file
 LS.COM - An alternative file listing to DIR

@@ -43,7 +43,8 @@ jobs:
           gh release create "$TAG" RomWBW-${{github.ref_name}}-Package.zip \
             --draft \
             --repo="$GITHUB_REPOSITORY" \
-            --title="${GITHUB_REPOSITORY#*/} $TAG" \
+#           --title="${GITHUB_REPOSITORY#*/} $TAG" \
+            --title="${{env.TITLE}} ${{github.ref_name}}" \
             --generate-notes
 
 

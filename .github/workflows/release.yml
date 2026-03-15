@@ -41,9 +41,10 @@ jobs:
           TAG: ${{ github.ref_name }}
         run: |
           gh release create "$TAG" \
+            --draft \
             --repo="$GITHUB_REPOSITORY" \
             --title="${GITHUB_REPOSITORY#*/} $TAG" \
-            --generate-notes # Automatically generates release notes from commits
+            --generate-notes
 
 
 
